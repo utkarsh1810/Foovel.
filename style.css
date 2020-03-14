@@ -37,6 +37,11 @@ body{
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
 }
+#m{
+  text-align:center;
+  font-size:60px;
+ }
+ 
 
 .jumbotron {
   padding: 1rem;
@@ -105,16 +110,20 @@ hr.light{
   border-top: 1px solid #d5d5d5;
   width: 100%;
 }
-
-
-
-
 /*---Media Queries --*/
 @media (max-width: 992px) {
   .social a{
     font-size: 4em;
     padding: 2rem;
   }
+  .love{
+    width: 100%;
+    font-weight: 100;
+  }
+  #m{
+    font-size: 45px;
+    color:green;
+    }
 
   }
 @media (max-width: 768px) {
@@ -136,9 +145,17 @@ hr.light{
     font-size: 95%;
     padding: 8px 14px;
   }
+  #m{
+    font-size: 30px;
+    color:blue;
+    }
+
 }
 @media (max-width: 576px) {
-  
+  #m{
+    font-size: 29px;
+    color:red;
+    }
 }
 
 
