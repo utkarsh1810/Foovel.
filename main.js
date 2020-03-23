@@ -1,10 +1,12 @@
-		// Trigger CSS animations on scroll.
-// Detailed explanation can be found at http://www.bram.us/2013/11/20/scroll-animations/
 
-// Looking for a version that also reverses the animation when
-// elements scroll below the fold again?
-// --> Check https://codepen.io/bramus/pen/vKpjNP
+                        // Loader
+  $(window).load(function(){
+   $('.loader').fadeOut('slow');
+  });
 
+                   // Animation on scroll
+
+                   
 jQuery(function($) {
   // Function which adds the 'animated' class to any '.animatable' in view
   var doAnimations = function() {
@@ -28,3 +30,7 @@ jQuery(function($) {
   $(window).trigger('scroll');
 
 });
+
+
+
+ 
