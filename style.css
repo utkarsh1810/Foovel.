@@ -138,10 +138,10 @@ hr.light{
 
 .animated.bounceIn {
 	-webkit-animation-name: bounceIn; }
-/* .animated.bounceInRight {
+.animated.bounceInRight {
 	-webkit-animation-name: bounceInRight; }
 .animated.bounceInLeft {
-  -webkit-animation-name: bounceInLeft; } */
+  -webkit-animation-name: bounceInLeft; }
   
   
                /* animation on scroll */
